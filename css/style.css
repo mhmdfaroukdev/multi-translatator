@@ -1,0 +1,21 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fa;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+#input-text,
+#result-text {
+    min-height: 170px;
+    resize: vertical;
+}
+
+.swap-button {
+    width: 44px;
+    height: 44px;
+}
